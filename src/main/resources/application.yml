@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: PortfolioApplication
+  datasource:
+    url: jdbc:mysql://zemoga-test-db.crhpedy9xxto.us-east-1.rds.amazonaws.com/zemoga_test_db
+    username: zemoga_test_db
+    password: Zem0ga.101
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
