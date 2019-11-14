@@ -1,3 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
-    background: black
+    color: #333333;
+    background-color: #FFF8DC;
+    font-family: 'Roboto', sans-serif;
 }
+
+#portfolio-container {
+    margin: 3rem 0;
+    border: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.portfolio-row {
+    padding: 0 1rem 1rem 1rem;
+}
+
+div.portfolio-header {
+    background: #F9F9F9 url('https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat;
+    background-size: cover;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+div.portfolio-img-container {
+    position: relative;
+    display: block;
+    height: 15rem;
+    padding: 0.5rem;
+    background-color: rgba(0,50,05,0.5)
+}
+
+h1.portfolio-title {
+    line-height: 9rem;
+    font-size: 5rem;
+    color: white;
+    background-color: rgba(0,50,50,.2);
+    padding: 0 1rem;
+    margin-top: 3rem;
+}
+
+img.img-portfolio {
+    max-width: 100%;
+    height: 100%;
+}
+
+h5.portfolio-timeline-header {
+    padding-left: 1.3rem;
+}
+
+ul.portfolio-timeline-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.portfolio-timeline-list > li {
+    list-style: none;
+    display: block;
+    margin: 0.5rem 0 0 0;
+    padding: 0.5rem 1rem;
+    background-color: #F9F9F9;
+}
+
+ul.portfolio-timeline-list li > p {
+    font-size: 0.8rem;
+}
+
+div.portfolio-timeline-item-header {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+div.portfolio-timeline-item-header > * {
+    display: inline-block;
+}
+
+div.portfolio-timeline-item-header > h6 {
+    margin-left: 0.5rem;
+}
+
+p.portfolio-description {
+    padding: 1rem;
+    text-align: justify;
+    height: 39rem;
+    background-color: #FAFAFA;
+    margin-top: 1rem;
+    overflow-y: auto;
+}
+
